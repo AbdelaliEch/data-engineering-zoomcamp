@@ -100,6 +100,13 @@ Script to prepare the Dataset [download_data.sh](code/download_data.sh)
 
 [![](https://markdown-videos-api.jorgenkh.no/youtube/HIm2BOj8C0Q)](https://youtu.be/HIm2BOj8C0Q&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=66)
 
+> [!NOTE]  
+> If you face an ERROR when submitting the job in this video, try running your script with:    
+> -–jars=gs://spark-lib/bigquery/spark-3.4-bigquery-0.37.0.jar  
+> instead of what you're running, and if that doesnt work try running it with every connector in this page to see if it works  
+https://github.com/GoogleCloudDataproc/spark-bigquery-connector  
+(scroll down to see connectors)
+
 
 # Homework
 
